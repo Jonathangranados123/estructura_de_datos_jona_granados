@@ -9,7 +9,6 @@ import java.util.Optional;
  * @param <U> El tipo de dato contenido en el nodo.
  */
 
-
 public class Node<U> {
     protected U data;
     private Optional<Node<U>> next;
@@ -23,7 +22,8 @@ public class Node<U> {
         return data;
     }
 
-    public Optional<Node<U>> getNext() {
+
+    public Optional<Node<U>>  getNext() {
         return next;
     }
 
@@ -31,3 +31,6 @@ public class Node<U> {
         this.next = Optional.ofNullable(next);
     }
 }
+
+
+

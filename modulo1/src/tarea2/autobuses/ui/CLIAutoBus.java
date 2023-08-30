@@ -15,6 +15,7 @@ public class CLIAutoBus {
          static ListaEnlazada<Pasajeros> listaDePasajeros = new ListaEnlazada<>();
 
 
+
     static Pasajeros readPasajeros() {
         System.out.print("Nombre del Pasajero: ");
         name = in.nextLine();

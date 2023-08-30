@@ -4,7 +4,7 @@ import tarea2.utils.*;
 import java.util.LinkedList;
 
 
-public class Pasajeros <E>{
+public class  Pasajeros <E>{
     private String name;
     private int number;
 

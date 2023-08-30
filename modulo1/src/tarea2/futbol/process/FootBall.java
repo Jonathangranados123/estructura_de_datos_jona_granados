@@ -1,6 +1,6 @@
 package tarea2.futbol.process;
 
-public class FootBall {
+public class  FootBall {
 
         private String name;
         private int number;
@@ -52,7 +52,7 @@ public class FootBall {
          * @return Una cadena que representa al jugador de fútbol, incluyendo su estado de capitán si aplica.
          */
         public String toString() {
-            return (isCaptain ? "*Capitan* " : "") + "Nombre: " + name + "/ Numero: " + number;
+            return (isCaptain ? " *Capitan* " : "") + "Nombre: " + name + "/ Numero: " + number;
         }
     }
 

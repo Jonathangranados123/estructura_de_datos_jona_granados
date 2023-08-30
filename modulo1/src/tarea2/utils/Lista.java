@@ -19,3 +19,4 @@ public interface Lista <E>{
     boolean contains(E t);
 
 }
+
