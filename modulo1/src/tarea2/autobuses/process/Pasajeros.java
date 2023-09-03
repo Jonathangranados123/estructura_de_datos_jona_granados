@@ -1,11 +1,11 @@
 package tarea2.autobuses.process;
-import tarea2.utils.*;
+
 
 import java.util.LinkedList;
 
 
 public class  Pasajeros <E>{
-    private String name;
+    private String  name;
     private int number;
 
 

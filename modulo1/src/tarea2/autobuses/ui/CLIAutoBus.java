@@ -1,12 +1,12 @@
 package tarea2.autobuses.ui;
 import tarea2.autobuses.process.Pasajeros;
-import tarea2.utils.ListaEnlazada;
+import utils.ListaEnlazada;
 
 import java.util.Scanner;
 
 public class CLIAutoBus {
 
-         static Scanner in = new Scanner(System.in);
+         static Scanner in = new Scanner(System.in );
          static String name;
          static int number;
          static String choice;

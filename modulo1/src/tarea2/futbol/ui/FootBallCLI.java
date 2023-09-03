@@ -1,11 +1,11 @@
 package tarea2.futbol.ui;
 import tarea2.futbol.process.FootBall;
-import tarea2.utils.ListaEnlazada;
+import utils.ListaEnlazada;
 
 import java.util.Scanner;
 
 
-public class FootBallCLI {
+public class  FootBallCLI {
 
 
     /**

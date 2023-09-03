@@ -1,4 +1,4 @@
-package tarea2.utils;
+package utils;
 import java.util.Optional;
 
 
@@ -13,7 +13,7 @@ public class Node<U> {
     protected U data;
     private Optional<Node<U>> next;
 
-    public Node(U data) {
+    public  Node(U data) {
         this.data = data;
         this.next = Optional.empty();
     }
@@ -29,6 +29,9 @@ public class Node<U> {
 
     public void setNext(Node<U> next) {
         this.next = Optional.ofNullable(next);
+    }
+
+    public <E> void setNext(Optional<Node<E>> head) {
     }
 }
 

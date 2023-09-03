@@ -42,7 +42,7 @@ public class  FootBall {
          *
          * @return true si el jugador es el capitán, false en caso contrario.
          */
-        public boolean isCaptain() {
+        public boolean isCaptain () {
             return isCaptain;
         }
 
@@ -54,5 +54,10 @@ public class  FootBall {
         public String toString() {
             return (isCaptain ? " *Capitan* " : "") + "Nombre: " + name + "/ Numero: " + number;
         }
+
+
     }
+
+
+
 
