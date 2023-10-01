@@ -21,10 +21,10 @@ public class Queue<T> {
      *
      * @param l La lista enlazada inicial para la cola.
      */
-    public Queue(ListaEnlazada<T> l) {
+   /* public Queue(ListaEnlazada<T> l) {
         list = l;
     }
-
+*/
     /**
      * Obtiene el número de elementos en la cola.
      *
@@ -95,7 +95,7 @@ public class Queue<T> {
      */
     public Queue<T> inverse() {
         var s = new Queue<T>();
-        var t = new Queue<T>(list);
+        var t = new Queue<T>();
         while (!t.isEmpty()) {
             s.offer(t.poll().get());
         }
