@@ -1,6 +1,6 @@
 package tarea2.autobuses.ui;
 import tarea2.autobuses.process.Pasajeros;
-import utils.ListaEnlazada;
+import utils.utilsModulo_uno.ListaEnlazada;
 
 import java.util.Scanner;
 

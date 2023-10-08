@@ -1,4 +1,4 @@
-package utils.sorting;
+package utils.sorting.sorters;
 
 import java.util.Arrays;
 import java.util.Random;

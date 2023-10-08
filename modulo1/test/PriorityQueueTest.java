@@ -1,4 +1,4 @@
-import utils.PriorityQueue;
+import utils.utilsModulo_uno.PriorityQueue;
 
 
 public class PriorityQueueTest {

@@ -1,9 +1,27 @@
 package utils.sorting;
 
 
+import utils.sorting.sorters.*;
+
 public class SorterFactory {
     public static Sorter getSorter(MetodosDeOrdenamiento method){
+        Sorter s;
+        switch(method){
+            case BUBBLE: s = new Bubble(); break;
+            case SELECTION: s= new Selection(); break;
+            case INSERTION: s= new Insertion(); break;
+            case SHELL: s= new Shell(); break;
+            case QUICK: s= new QuickSort(); break;
+            case HEAP: s= new HeapSort(); break;
+            case MERGE: s= new Merge(); break;
+            default: s = null;
+        }
+        return s;
+    }
+
+    public static Sorter getSorterDOs(MetodosDeOrdenamiento method){
         return switch(method){
+
             case BUBBLE-> new Sorter(){
                 public void sort(int[] N){
                     var len = N.length;
@@ -91,4 +109,3 @@ public class SorterFactory {
         };
     }
 }
-

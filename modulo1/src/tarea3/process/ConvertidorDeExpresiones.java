@@ -1,5 +1,5 @@
 package tarea3.process;
-import utils.*;
+import utils.utilsModulo_uno.Stack;
 //import java.util.Stack;
 
 public class ConvertidorDeExpresiones {

@@ -1,6 +1,6 @@
-package utils.sorting;
+package utils.sorting.sorters;
 
-public class Bubble extends Sorter{
+public class Bubble extends Sorter {
     @Override
     public void sort(int[] N) {
         var len = N.length;
