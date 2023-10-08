@@ -1,4 +1,4 @@
-package utils.sorting;
+package utils.sorting.sorters;
 
 public class Selection extends Sorter {
 

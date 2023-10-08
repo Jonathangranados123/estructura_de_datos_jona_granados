@@ -1,10 +1,10 @@
-package utils.sorting;
-import utils.*;
+package utils.sorting.sorters;
+
 /**
  * Esta clase implementa el algoritmo de ordenación por inserción para ordenar un arreglo de enteros.
  * Extiende la clase Sorter para aprovechar la implementación de los métodos swap y las variables COMPARACIONES y MOVIMIENTOS.
  */
-public class Insertion extends Sorter{
+public class Insertion extends Sorter {
     /**
      * Ordena un arreglo de enteros utilizando el algoritmo de ordenación por inserción.
      *

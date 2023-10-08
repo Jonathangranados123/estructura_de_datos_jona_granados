@@ -1,5 +1,6 @@
-package utils.sorting;
-public class Shell extends Sorter{
+package utils.sorting.sorters;
+
+public class Shell extends Sorter {
     /**
      * Ordena un arreglo de enteros utilizando el algoritmo de ordenación Shell Sort.
      *

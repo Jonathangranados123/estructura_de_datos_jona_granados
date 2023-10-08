@@ -1,5 +1,7 @@
 package utils.sorting;
 
+import utils.sorting.sorters.Sorter;
+
 import java.util.Arrays;
 import java.util.Random;
 

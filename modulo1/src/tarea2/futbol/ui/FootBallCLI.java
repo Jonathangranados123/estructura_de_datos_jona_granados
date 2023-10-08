@@ -1,6 +1,6 @@
 package tarea2.futbol.ui;
 import tarea2.futbol.process.FootBall;
-import utils.ListaEnlazada;
+import utils.utilsModulo_uno.ListaEnlazada;
 
 import java.util.Scanner;
 
